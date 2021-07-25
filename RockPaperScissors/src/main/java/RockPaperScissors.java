@@ -15,7 +15,7 @@ public class RockPaperScissors {
             String userMove = user.getMove();
 
             System.out.println("\nYour move:  " + userMove);
-            System.out.println("Computer turn:  " + computerMove);
+            System.out.println("Computer move:  " + computerMove);
 
             if (computerMove.equals(userMove)){
                 System.out.println("It's a draw");
@@ -29,8 +29,3 @@ public class RockPaperScissors {
             System.out.println("Key: " + computer.getKey());
         }
 }
-
-
-
-
-
